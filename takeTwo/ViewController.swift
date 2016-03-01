@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
@@ -20,7 +21,7 @@ class ViewController: UIViewController, UITableViewDataSource {
             handler: { (action:UIAlertAction) -> Void in
 
                 let textField = alert.textFields!.first
-                self.names.append(textField!.text!)
+                self.saveName(textField!.text!)
                 self.tableView.reloadData()
 
 
@@ -41,7 +42,7 @@ class ViewController: UIViewController, UITableViewDataSource {
             completion: nil)
     }
 
-    var names = [String]()
+    var events = [NSManagedObject]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,9 +53,27 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+
+        let managedContext = appDelegate.managedObjectContext
+
+        let fetchRequest = NSFetchRequest(entityName: "Event")
+
+        do {
+            let results =
+                try managedContext.executeFetchRequest(fetchRequest)
+            events = results as! [NSManagedObject]
+        } catch let error as NSError {
+            print(error)
+        }
+    }
+
     func tableView(tableView: UITableView,
         numberOfRowsInSection section: Int) -> Int {
-            return names.count
+            return events.count
     }
 
     func tableView(tableView: UITableView,
@@ -62,15 +81,39 @@ class ViewController: UIViewController, UITableViewDataSource {
         indexPath: NSIndexPath) -> UITableViewCell {
             let cell =
             tableView.dequeueReusableCellWithIdentifier("Cell")
-            cell!.textLabel!.text = names[indexPath.row]
+
+            let event = events[indexPath.row]
+
+            cell!.textLabel!.text = event.valueForKey("name") as? String
+
             return cell!
+    }
+
+    func saveName(name: String) {
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+
+        let managedContext = appDelegate.managedObjectContext
+
+        let entity = NSEntityDescription.entityForName("Event",
+            inManagedObjectContext: managedContext)
+
+        let event = NSManagedObject(entity: entity!,
+            insertIntoManagedObjectContext: managedContext)
+
+        event.setValue(name, forKey: "name")
+
+        do {
+            try managedContext.save()
+            events.append(event)
+        } catch let error as NSError {
+            print("Error stuff")
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
