@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB65EF471C86190900D37C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF461C86190900D37C85 /* AppDelegate.swift */; };
+		DB65EF491C86190900D37C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF481C86190900D37C85 /* ViewController.swift */; };
+		DB65EF4C1C86190900D37C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB65EF4A1C86190900D37C85 /* Main.storyboard */; };
+		DB65EF4F1C86190900D37C85 /* takeTwo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF4D1C86190900D37C85 /* takeTwo.xcdatamodeld */; };
+		DB65EF511C86190900D37C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB65EF501C86190900D37C85 /* Assets.xcassets */; };
+		DB65EF541C86190900D37C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB65EF521C86190900D37C85 /* LaunchScreen.storyboard */; };
+		DB65EF5F1C86190900D37C85 /* takeTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF5E1C86190900D37C85 /* takeTwoTests.swift */; };
+		DB65EF6A1C86190900D37C85 /* takeTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF691C86190900D37C85 /* takeTwoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB65EF5B1C86190900D37C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB65EF3B1C86190900D37C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB65EF421C86190900D37C85;
+			remoteInfo = takeTwo;
+		};
+		DB65EF661C86190900D37C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB65EF3B1C86190900D37C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB65EF421C86190900D37C85;
+			remoteInfo = takeTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB65EF431C86190900D37C85 /* takeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB65EF461C86190900D37C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB65EF481C86190900D37C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB65EF4B1C86190900D37C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB65EF4E1C86190900D37C85 /* takeTwo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = takeTwo.xcdatamodel; sourceTree = "<group>"; };
+		DB65EF501C86190900D37C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB65EF531C86190900D37C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB65EF551C86190900D37C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB65EF5A1C86190900D37C85 /* takeTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takeTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB65EF5E1C86190900D37C85 /* takeTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeTwoTests.swift; sourceTree = "<group>"; };
+		DB65EF601C86190900D37C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB65EF651C86190900D37C85 /* takeTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takeTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB65EF691C86190900D37C85 /* takeTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeTwoUITests.swift; sourceTree = "<group>"; };
+		DB65EF6B1C86190900D37C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB65EF401C86190900D37C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB65EF571C86190900D37C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB65EF621C86190900D37C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB65EF3A1C86190900D37C85 = {
+			isa = PBXGroup;
+			children = (
+				DB65EF451C86190900D37C85 /* takeTwo */,
+				DB65EF5D1C86190900D37C85 /* takeTwoTests */,
+				DB65EF681C86190900D37C85 /* takeTwoUITests */,
+				DB65EF441C86190900D37C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB65EF441C86190900D37C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB65EF431C86190900D37C85 /* takeTwo.app */,
+				DB65EF5A1C86190900D37C85 /* takeTwoTests.xctest */,
+				DB65EF651C86190900D37C85 /* takeTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB65EF451C86190900D37C85 /* takeTwo */ = {
+			isa = PBXGroup;
+			children = (
+				DB65EF461C86190900D37C85 /* AppDelegate.swift */,
+				DB65EF481C86190900D37C85 /* ViewController.swift */,
+				DB65EF4A1C86190900D37C85 /* Main.storyboard */,
+				DB65EF501C86190900D37C85 /* Assets.xcassets */,
+				DB65EF521C86190900D37C85 /* LaunchScreen.storyboard */,
+				DB65EF551C86190900D37C85 /* Info.plist */,
+				DB65EF4D1C86190900D37C85 /* takeTwo.xcdatamodeld */,
+			);
+			path = takeTwo;
+			sourceTree = "<group>";
+		};
+		DB65EF5D1C86190900D37C85 /* takeTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB65EF5E1C86190900D37C85 /* takeTwoTests.swift */,
+				DB65EF601C86190900D37C85 /* Info.plist */,
+			);
+			path = takeTwoTests;
+			sourceTree = "<group>";
+		};
+		DB65EF681C86190900D37C85 /* takeTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB65EF691C86190900D37C85 /* takeTwoUITests.swift */,
+				DB65EF6B1C86190900D37C85 /* Info.plist */,
+			);
+			path = takeTwoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB65EF421C86190900D37C85 /* takeTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB65EF6E1C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwo" */;
+			buildPhases = (
+				DB65EF3F1C86190900D37C85 /* Sources */,
+				DB65EF401C86190900D37C85 /* Frameworks */,
+				DB65EF411C86190900D37C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = takeTwo;
+			productName = takeTwo;
+			productReference = DB65EF431C86190900D37C85 /* takeTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB65EF591C86190900D37C85 /* takeTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB65EF711C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwoTests" */;
+			buildPhases = (
+				DB65EF561C86190900D37C85 /* Sources */,
+				DB65EF571C86190900D37C85 /* Frameworks */,
+				DB65EF581C86190900D37C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB65EF5C1C86190900D37C85 /* PBXTargetDependency */,
+			);
+			name = takeTwoTests;
+			productName = takeTwoTests;
+			productReference = DB65EF5A1C86190900D37C85 /* takeTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB65EF641C86190900D37C85 /* takeTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB65EF741C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwoUITests" */;
+			buildPhases = (
+				DB65EF611C86190900D37C85 /* Sources */,
+				DB65EF621C86190900D37C85 /* Frameworks */,
+				DB65EF631C86190900D37C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB65EF671C86190900D37C85 /* PBXTargetDependency */,
+			);
+			name = takeTwoUITests;
+			productName = takeTwoUITests;
+			productReference = DB65EF651C86190900D37C85 /* takeTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB65EF3B1C86190900D37C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mary Briskin";
+				TargetAttributes = {
+					DB65EF421C86190900D37C85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DB65EF591C86190900D37C85 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DB65EF421C86190900D37C85;
+					};
+					DB65EF641C86190900D37C85 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DB65EF421C86190900D37C85;
+					};
+				};
+			};
+			buildConfigurationList = DB65EF3E1C86190900D37C85 /* Build configuration list for PBXProject "takeTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB65EF3A1C86190900D37C85;
+			productRefGroup = DB65EF441C86190900D37C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB65EF421C86190900D37C85 /* takeTwo */,
+				DB65EF591C86190900D37C85 /* takeTwoTests */,
+				DB65EF641C86190900D37C85 /* takeTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB65EF411C86190900D37C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB65EF541C86190900D37C85 /* LaunchScreen.storyboard in Resources */,
+				DB65EF511C86190900D37C85 /* Assets.xcassets in Resources */,
+				DB65EF4C1C86190900D37C85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB65EF581C86190900D37C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB65EF631C86190900D37C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB65EF3F1C86190900D37C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB65EF491C86190900D37C85 /* ViewController.swift in Sources */,
+				DB65EF471C86190900D37C85 /* AppDelegate.swift in Sources */,
+				DB65EF4F1C86190900D37C85 /* takeTwo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB65EF561C86190900D37C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB65EF5F1C86190900D37C85 /* takeTwoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB65EF611C86190900D37C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB65EF6A1C86190900D37C85 /* takeTwoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB65EF5C1C86190900D37C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB65EF421C86190900D37C85 /* takeTwo */;
+			targetProxy = DB65EF5B1C86190900D37C85 /* PBXContainerItemProxy */;
+		};
+		DB65EF671C86190900D37C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB65EF421C86190900D37C85 /* takeTwo */;
+			targetProxy = DB65EF661C86190900D37C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB65EF4A1C86190900D37C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB65EF4B1C86190900D37C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB65EF521C86190900D37C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB65EF531C86190900D37C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB65EF6C1C86190900D37C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB65EF6D1C86190900D37C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB65EF6F1C86190900D37C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = takeTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marybriskin.takeTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB65EF701C86190900D37C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = takeTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marybriskin.takeTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB65EF721C86190900D37C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = takeTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marybriskin.takeTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takeTwo.app/takeTwo";
+			};
+			name = Debug;
+		};
+		DB65EF731C86190900D37C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = takeTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marybriskin.takeTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takeTwo.app/takeTwo";
+			};
+			name = Release;
+		};
+		DB65EF751C86190900D37C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = takeTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marybriskin.takeTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = takeTwo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB65EF761C86190900D37C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = takeTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marybriskin.takeTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = takeTwo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB65EF3E1C86190900D37C85 /* Build configuration list for PBXProject "takeTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB65EF6C1C86190900D37C85 /* Debug */,
+				DB65EF6D1C86190900D37C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB65EF6E1C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB65EF6F1C86190900D37C85 /* Debug */,
+				DB65EF701C86190900D37C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB65EF711C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB65EF721C86190900D37C85 /* Debug */,
+				DB65EF731C86190900D37C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB65EF741C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB65EF751C86190900D37C85 /* Debug */,
+				DB65EF761C86190900D37C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB65EF4D1C86190900D37C85 /* takeTwo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB65EF4E1C86190900D37C85 /* takeTwo.xcdatamodel */,
+			);
+			currentVersion = DB65EF4E1C86190900D37C85 /* takeTwo.xcdatamodel */;
+			path = takeTwo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB65EF3B1C86190900D37C85 /* Project object */;
+}
