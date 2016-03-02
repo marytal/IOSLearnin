@@ -46,8 +46,8 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(white: 1, alpha: 0.5)
-        title = "\"The List\""
+        
+        title = "The List"
         tableView.registerClass(UITableViewCell.self,
           forCellReuseIdentifier:  "Cell")
         // Do any additional setup after loading the view, typically from a nib.
