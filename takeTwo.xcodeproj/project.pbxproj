@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46D820D11CBEB90F00C6BC5A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D01CBEB90F00C6BC5A /* AssetsLibrary.framework */; };
+		46D820D31CBEB91900C6BC5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D21CBEB91900C6BC5A /* AVFoundation.framework */; };
+		46D820D51CBEB92100C6BC5A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D41CBEB92100C6BC5A /* CoreMedia.framework */; };
+		46D820D71CBEB92C00C6BC5A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D61CBEB92C00C6BC5A /* MobileCoreServices.framework */; };
+		46D820D91CBEB93200C6BC5A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D81CBEB93200C6BC5A /* QuartzCore.framework */; };
 		DB65EF471C86190900D37C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF461C86190900D37C85 /* AppDelegate.swift */; };
 		DB65EF491C86190900D37C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF481C86190900D37C85 /* ViewController.swift */; };
 		DB65EF4C1C86190900D37C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB65EF4A1C86190900D37C85 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46D820D01CBEB90F00C6BC5A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		46D820D21CBEB91900C6BC5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		46D820D41CBEB92100C6BC5A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		46D820D61CBEB92C00C6BC5A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		46D820D81CBEB93200C6BC5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DB65EF431C86190900D37C85 /* takeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB65EF461C86190900D37C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB65EF481C86190900D37C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D820D91CBEB93200C6BC5A /* QuartzCore.framework in Frameworks */,
+				46D820D71CBEB92C00C6BC5A /* MobileCoreServices.framework in Frameworks */,
+				46D820D51CBEB92100C6BC5A /* CoreMedia.framework in Frameworks */,
+				46D820D31CBEB91900C6BC5A /* AVFoundation.framework in Frameworks */,
+				46D820D11CBEB90F00C6BC5A /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,11 @@
 		DB65EF3A1C86190900D37C85 = {
 			isa = PBXGroup;
 			children = (
+				46D820D81CBEB93200C6BC5A /* QuartzCore.framework */,
+				46D820D61CBEB92C00C6BC5A /* MobileCoreServices.framework */,
+				46D820D41CBEB92100C6BC5A /* CoreMedia.framework */,
+				46D820D21CBEB91900C6BC5A /* AVFoundation.framework */,
+				46D820D01CBEB90F00C6BC5A /* AssetsLibrary.framework */,
 				DB65EF451C86190900D37C85 /* takeTwo */,
 				DB65EF5D1C86190900D37C85 /* takeTwoTests */,
 				DB65EF681C86190900D37C85 /* takeTwoUITests */,
@@ -486,6 +506,7 @@
 				DB65EF701C86190900D37C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB65EF711C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +515,7 @@
 				DB65EF731C86190900D37C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB65EF741C86190900D37C85 /* Build configuration list for PBXNativeTarget "takeTwoUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +524,7 @@
 				DB65EF761C86190900D37C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
