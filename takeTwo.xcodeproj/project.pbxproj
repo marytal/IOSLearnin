@@ -12,6 +12,13 @@
 		46D820D51CBEB92100C6BC5A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D41CBEB92100C6BC5A /* CoreMedia.framework */; };
 		46D820D71CBEB92C00C6BC5A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D61CBEB92C00C6BC5A /* MobileCoreServices.framework */; };
 		46D820D91CBEB93200C6BC5A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D820D81CBEB93200C6BC5A /* QuartzCore.framework */; };
+		46D820DB1CBEBFD700C6BC5A /* VideoButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D820DA1CBEBFD700C6BC5A /* VideoButtons.storyboard */; };
+		46D820DE1CC1683900C6BC5A /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D820DC1CC1683900C6BC5A /* PlayVideoViewController.swift */; };
+		46D820DF1CC1683900C6BC5A /* PlayVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D820DD1CC1683900C6BC5A /* PlayVideoViewController.xib */; };
+		46D820E21CC1685000C6BC5A /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D820E01CC1685000C6BC5A /* RecordVideoViewController.swift */; };
+		46D820E31CC1685000C6BC5A /* RecordVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D820E11CC1685000C6BC5A /* RecordVideoViewController.xib */; };
+		46D820E71CC1687B00C6BC5A /* MergeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D820E51CC1687B00C6BC5A /* MergeVideoViewController.swift */; };
+		46D820E81CC1687B00C6BC5A /* MergeVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D820E61CC1687B00C6BC5A /* MergeVideoViewController.xib */; };
 		DB65EF471C86190900D37C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF461C86190900D37C85 /* AppDelegate.swift */; };
 		DB65EF491C86190900D37C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65EF481C86190900D37C85 /* ViewController.swift */; };
 		DB65EF4C1C86190900D37C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB65EF4A1C86190900D37C85 /* Main.storyboard */; };
@@ -45,6 +52,13 @@
 		46D820D41CBEB92100C6BC5A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		46D820D61CBEB92C00C6BC5A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		46D820D81CBEB93200C6BC5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		46D820DA1CBEBFD700C6BC5A /* VideoButtons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoButtons.storyboard; sourceTree = "<group>"; };
+		46D820DC1CC1683900C6BC5A /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		46D820DD1CC1683900C6BC5A /* PlayVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayVideoViewController.xib; sourceTree = "<group>"; };
+		46D820E01CC1685000C6BC5A /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
+		46D820E11CC1685000C6BC5A /* RecordVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordVideoViewController.xib; sourceTree = "<group>"; };
+		46D820E51CC1687B00C6BC5A /* MergeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeVideoViewController.swift; sourceTree = "<group>"; };
+		46D820E61CC1687B00C6BC5A /* MergeVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MergeVideoViewController.xib; sourceTree = "<group>"; };
 		DB65EF431C86190900D37C85 /* takeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB65EF461C86190900D37C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB65EF481C86190900D37C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +105,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46D820E41CC1685600C6BC5A /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46D820DC1CC1683900C6BC5A /* PlayVideoViewController.swift */,
+				46D820DD1CC1683900C6BC5A /* PlayVideoViewController.xib */,
+				46D820E01CC1685000C6BC5A /* RecordVideoViewController.swift */,
+				46D820E11CC1685000C6BC5A /* RecordVideoViewController.xib */,
+				46D820E51CC1687B00C6BC5A /* MergeVideoViewController.swift */,
+				46D820E61CC1687B00C6BC5A /* MergeVideoViewController.xib */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
 		DB65EF3A1C86190900D37C85 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +146,7 @@
 		DB65EF451C86190900D37C85 /* takeTwo */ = {
 			isa = PBXGroup;
 			children = (
+				46D820E41CC1685600C6BC5A /* viewControllers */,
 				DB65EF461C86190900D37C85 /* AppDelegate.swift */,
 				DB65EF481C86190900D37C85 /* ViewController.swift */,
 				DB65EF4A1C86190900D37C85 /* Main.storyboard */,
@@ -126,6 +154,7 @@
 				DB65EF521C86190900D37C85 /* LaunchScreen.storyboard */,
 				DB65EF551C86190900D37C85 /* Info.plist */,
 				DB65EF4D1C86190900D37C85 /* takeTwo.xcdatamodeld */,
+				46D820DA1CBEBFD700C6BC5A /* VideoButtons.storyboard */,
 			);
 			path = takeTwo;
 			sourceTree = "<group>";
@@ -252,7 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D820DB1CBEBFD700C6BC5A /* VideoButtons.storyboard in Resources */,
+				46D820E81CC1687B00C6BC5A /* MergeVideoViewController.xib in Resources */,
+				46D820E31CC1685000C6BC5A /* RecordVideoViewController.xib in Resources */,
 				DB65EF541C86190900D37C85 /* LaunchScreen.storyboard in Resources */,
+				46D820DF1CC1683900C6BC5A /* PlayVideoViewController.xib in Resources */,
 				DB65EF511C86190900D37C85 /* Assets.xcassets in Resources */,
 				DB65EF4C1C86190900D37C85 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D820DE1CC1683900C6BC5A /* PlayVideoViewController.swift in Sources */,
+				46D820E71CC1687B00C6BC5A /* MergeVideoViewController.swift in Sources */,
+				46D820E21CC1685000C6BC5A /* RecordVideoViewController.swift in Sources */,
 				DB65EF491C86190900D37C85 /* ViewController.swift in Sources */,
 				DB65EF471C86190900D37C85 /* AppDelegate.swift in Sources */,
 				DB65EF4F1C86190900D37C85 /* takeTwo.xcdatamodeld in Sources */,

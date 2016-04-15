@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="BiD-fM-1Qa">
+            <objects>
+                <viewController storyboardIdentifier="videoStoryBoard" id="jPg-ra-NSB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FoH-Jy-QKw"/>
+                        <viewControllerLayoutGuide type="bottom" id="YIF-bV-djw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qdb-FK-zQU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bf-JR-cmo">
+                                <rect key="frame" x="120" y="57" width="175" height="30"/>
+                                <state key="normal" title="Select and Play Video"/>
+                                <connections>
+                                    <segue destination="5Ve-6U-QBP" kind="show" id="pW7-id-4Ws"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Md-ai-6Hs">
+                                <rect key="frame" x="113" y="124" width="189" height="30"/>
+                                <state key="normal" title="Record and Save Video"/>
+                                <connections>
+                                    <segue destination="zPe-3a-rHN" kind="show" id="Pli-b5-28P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jC-oJ-jnz">
+                                <rect key="frame" x="152" y="179" width="111" height="30"/>
+                                <state key="normal" title="Merge Video"/>
+                                <connections>
+                                    <segue destination="yC6-Uc-ZT8" kind="show" id="dpK-rM-y1h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mlz-Ly-Nyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157" y="425"/>
+        </scene>
+        <!--Play Video View Controller-->
+        <scene sceneID="VXp-Bf-TQe">
+            <objects>
+                <viewController id="5Ve-6U-QBP" customClass="PlayVideoViewController" customModule="takeTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l75-Ot-EUe"/>
+                        <viewControllerLayoutGuide type="bottom" id="ShI-Gt-Yae"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yLP-eV-jzt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9c-2R-h17" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="-156"/>
+        </scene>
+        <!--Record Video View Controller-->
+        <scene sceneID="onA-JJ-hGr">
+            <objects>
+                <viewController id="zPe-3a-rHN" customClass="RecordVideoViewController" customModule="takeTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bPz-2f-Iut"/>
+                        <viewControllerLayoutGuide type="bottom" id="j0W-it-RnH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aIl-0y-2Hr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDZ-Z2-yTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="604"/>
+        </scene>
+        <!--Merge Video View Controller-->
+        <scene sceneID="6K8-97-YFZ">
+            <objects>
+                <viewController id="yC6-Uc-ZT8" customClass="MergeVideoViewController" customModule="takeTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZF3-eP-o38"/>
+                        <viewControllerLayoutGuide type="bottom" id="RHI-y0-yiM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eAc-Ns-y9N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vey-y9-Iqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944" y="1432"/>
+        </scene>
+    </scenes>
+</document>

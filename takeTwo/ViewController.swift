@@ -12,6 +12,13 @@ import CoreData
 class ViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
+    
+    @IBAction func videoButtonsProj(sender: AnyObject) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        self.presentViewController(resultViewController, animated:true, completion:nil)
+    }
+    
     @IBAction func addName(sender: AnyObject) {
         let alert = UIAlertController(title: "New Name",
             message: "Add a new name",
@@ -106,7 +113,7 @@ class ViewController: UIViewController, UITableViewDataSource {
             try managedContext.save()
             events.append(event)
         } catch let error as NSError {
-            print("Error stuff")
+            print("Error stuff: \(error)")
         }
     }
 
